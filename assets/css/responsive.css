@@ -1,0 +1,1055 @@
+/*
+ Theme Name: Dgita
+ Theme URI: https://themeforest.net/user/themewar/portfolio
+ Author: themewar
+ Author URI: 
+ Description: Dgita - Creative Digital Agency Responsive HTML5 Template
+ Version: 1.0
+ License:
+ License URI:
+*/
+
+/*=======================================================================
+[Table of contents]
+=========================================================================
+
+1. Responsive For Extra large Device 2
+2. Desktop Device
+3. Responsive For Tab Device
+4. Comon in Tab & Mobile
+5. Responsive For Mobile Device
+*/
+
+/*------------------------------------------------------------------------------------
+/ 1. Responsive For Extra large Device 2
+--------------------------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1700px){
+    .header01{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .bLayer img{
+        max-width: 128%;
+    }
+    .bannerContent02 h2{
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 30px;
+    }
+    .bannerContent02 > p{
+        margin-bottom: 35px;
+    }
+    .bannerContent h2{
+        font-size: 55px;
+        line-height: 65px;
+        margin-bottom: 30px;
+    }
+    .bannerContent > p{
+        margin-bottom: 35px;
+    }
+    .iconbox01{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .pb4 {
+        padding-top: 90px;
+    }
+    .ibborder img{
+        max-width: 100%;
+    }
+    .processConten img {
+        max-width: 122% !important;
+    }
+    .testimonialSlider01{
+        margin-left: 15px;
+    }
+    .blinker_anim, .SecLayerimg{
+        overflow: hidden;
+    }
+    .SecLayerimg img{
+        max-width: 97%;
+    }
+    .factBottom{
+        margin-right: -70px;
+    }
+    .processConten02{
+        margin-left: -55px;
+    }
+    .singleServicePage .abImg{
+        margin-left: 0;
+    }
+    .mainMenu{
+        padding-left: 60px;
+    }
+    .centerMenu .mainMenu{
+        padding-right: 60px;
+    }
+    .teamSection01{
+        padding-right: 90px;
+        padding-left: 90px;
+    }
+    .mainMenu ul li{
+        margin-right: 35px;
+    }
+    .layer img {
+        width: 75% !important;
+        height: auto !important;
+    }
+    .tp-caption .subbg{
+        margin-top: 65px !important;
+    }
+    .slider_01 .headFont{
+        margin-top: 35px !important;
+        font-size: 65px !important;
+        line-height: 75px !important;
+    }
+    .slider_02 .tp-caption{
+        margin-left: 40px !important;
+    }
+    .slider_02 .layer img {
+        width: 60% !important;
+    }
+    .slider_02 .tp-caption .subbg{
+        top: 60px !important;
+        position: relative;
+    }
+    .slider_02 .headFont{
+        margin-top: 80px !important;
+        font-size: 50px !important;
+        line-height: 60px !important;
+    }
+    .slider_03 .tparrows.custom,
+    .slider_02 .tparrows.custom{
+        width: 55px;
+        height: 55px;
+    }
+    .slider_03 .tparrows.custom:before,
+    .slider_02 .tparrows.custom:before{
+        line-height: 20px;
+        line-height: 55px;
+    }
+    .slider_03 .headFont{
+        margin-top: 50px !important;
+        font-size: 50px !important;
+        line-height: 60px !important;
+    }
+    .slider_03 .tp-caption .subbg{
+        top: 60px !important;
+        position: relative;
+    }
+    .rvlist{
+        position: relative;
+        top: -48px;
+    }
+    .slider_03 .dgBtn{
+        top: -80px;
+    }
+    .slider_03 .layer img {
+        left: 280px;
+        position: relative;
+        width: 65% !important;
+        height: auto !important;
+    }
+}
+
+/*------------------------------------------------------------------------------------
+/ 2. Desktop Device
+/--------------------------------------------------------------------------------------*/
+@media (min-width: 992px) and (max-width: 1199px){
+    .layer img {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .bannerContent h2{
+        font-size: 45px;
+        line-height: 55px;
+        margin-bottom: 30px;
+    }
+    .bannerContent > p{
+        margin-bottom: 35px;
+    }
+    .bannerContent02 h2{
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 30px;
+    }
+    .bannerContent02 > p{
+        margin-bottom: 30px;
+    }
+    .iconbox01{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .pb4 {
+        padding-top: 65px;
+    }
+    .ibborder img{
+        max-width: 100%;
+    }
+    .ibborder{
+        right: -125px;
+    }
+    .processConten img {
+        max-width: 105% !important;
+    }
+    .testimonialSlider01{
+        margin-left: 0;
+        width: 100%;
+    }
+    .factBottom{
+        margin-right: -0px;
+    }
+    .SecLayerimg{
+        display: none;
+    }
+    .processConten .fact_01{
+        margin-bottom: -90px;
+    }
+    .serviceItem02{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .header01 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .mainMenu{
+        padding-left: 15px;
+        margin-right: 0;
+    }
+    .accessNav .dgBtn_two{
+        display: none;
+    }
+    .accessNav .cartBtn{
+        margin-left: 18px;
+    }
+    .mainMenu ul li{
+        margin-right: 22px;
+    }
+    .bannerContent{
+        padding-top: 220px;
+    }
+    .bLayer{
+        margin-left: -50px;
+    }
+    .centerMenu .mainMenu {
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .mainMenu > ul li:nth-last-child(3) ul ul,
+    .mainMenu > ul li:nth-last-child(2) ul ul,
+    .mainMenu > ul li:nth-last-child(1) ul ul{
+        right: calc(100% + 1px);
+        left: auto;
+    }
+    .bannerContent02{
+        padding-top: 180px;
+    }
+    .abImg2{
+        margin-right: 0;
+    }
+    .serviceItem04{
+        padding-left: 205px;
+        padding-right: 25px;
+    }
+    .serviceItem04 .serImg{
+        left: 20px;
+    }
+    .processConten02{
+        margin-top: 50px;
+    }
+    .ctaMail{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .widget.contact_widget {
+        padding-left: 0;
+    }
+    .teamSection01{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .testimonialSlider02.owl-carousel .owl-nav{
+        left: 9%;
+    }
+    .tsContent02{
+        padding-left: 0;
+    }
+    .heroBanner03 .bLayer{
+        margin: 30px -40px 0 0;
+    }
+    .heroBanner03 .bannerContent02{
+        padding-top: 50px;
+        margin-left: -50px;
+    }
+    .heroBanner03{
+        padding-bottom: 120px;
+    }
+    .abImg3{
+        padding-left: 0;
+    }
+    .fact_01.fsingle{
+        width: 220px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .aboutSection03 .fact_01.fi03.fsingle {
+        margin-left: -5px;
+    }
+    .iconbox02{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .testimonialSlider03{
+        padding: 0;
+    }
+    .banner-desc{
+        margin: 0;
+    }
+    .dgitaTabWrapper{
+        margin-right: 0;
+    }
+    .secTitle br, .secDesc2 br, .secDesc br{
+        display: none;
+    }
+    .singleServicePage .secTitle{
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .singleServicePage .abImg{
+        margin-left: 0;
+    }
+    .auditForm{
+        margin: 0;
+    }
+    .fixedItem .tsContent02{
+        margin-right: 0;
+    }
+    .folioPagination a.prev{
+        padding-right: 50px;
+    }
+    .folioPagination a.next{
+        padding-left: 50px;
+    }
+    .sidebar{
+        padding-left: 0;
+    }
+    .sidebar.lsb{
+        padding-right: 0;
+    }
+    .postPagination a.next{
+        padding-left: 0;
+    }
+    .postPagination a.prev{
+        padding-right: 0;
+    }
+    .postPagination a{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .commentForm .dgBtn{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .sicc_list li .children{
+        margin-left: 40px;
+    }
+    .conFormWrapper p br{
+        display: none;
+    }
+    .conFormWrapper{
+        padding-left: 25px;
+        padding-right: 20px;
+    }
+    .historyContent{
+        padding-left: 50px;
+    }
+    .bars{
+        left: -80px;
+    }
+    .hdots{
+        left: 15px;
+    }
+    .tmImgArea{
+        padding: 0;
+    }
+    .product_details {
+        position: relative;
+        padding: 45px 0 0 10px;
+    }
+    .serviceItem01 h3{
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+
+/*------------------------------------------------------------------------------------
+/ 3. Responsive For Tab Device
+/--------------------------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 991px){
+    .accessNav .cartBtn, .accessNav .phoneBtn{
+        margin-left: 20px;
+    }
+    .accessNav .dgBtn_two{
+        padding: 0 22px;
+    }
+    .centerMenu .accessNav .dgBtn_two{
+        margin-left: 25px;
+    }
+    .historyContent{
+        padding-left: 50px;
+    }
+    .bars{
+        left: -40px;
+    }
+    .hdots{
+        left: 15px;
+    }
+}
+
+/*------------------------------------------------------------------------------------
+/ 4. Comon in Tab & Mobile
+/--------------------------------------------------------------------------------------*/
+@media (max-width: 1023px){
+    .testimonialSlider01{
+        margin-left: 0;
+        width: 100%;
+    }
+    .SecLayerimg{
+        display: none;
+    }
+}
+@media (max-width: 991px){
+    /*-- Mobile Menu --*/
+    .layer img{
+        display: none;
+    }
+    .header01,
+    header.fixedHeader{
+        padding: 22px 0;
+    }
+    .menu_btn{
+        height: 45px;
+        width: 45px;
+        background: var(--theme-color);
+        color: #FFF;
+        line-height: 44px;
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        margin-left: auto;
+    }
+    .menu_btn i{
+        line-height: inherit;
+    }
+    .menu_btn:hover, .menu_btn.active{
+        color: #FFF;
+    }
+    .menu_btn.active .twi-bars2:before{
+        content: "\fa88";
+    }
+    .centerMenu .mainMenu,
+    .mainMenu{
+        z-index: 99;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        top: 77px;
+        width: 100%;
+        background: #fff;
+        box-shadow: -2px 4px 7px 0px rgba(226, 225, 225, .79);
+        display: none;
+        max-height: calc(100vh - 150px);
+        overflow-y: scroll;
+    }
+    .mainMenu ul li{
+        padding: 0;
+        margin: 0;
+        position: inherit;
+        display: block;
+        width: 100%;
+    }
+    .mainMenu ul li{
+        position: inherit;
+    }
+    .mainMenu > ul > li > a{
+        font-size: 18px;
+        padding: 16px 20px;
+        border-top: 1px solid rgba(0, 0, 0, .05);
+    }
+    .mainMenu > ul > li ul{
+        z-index: 5;
+        position: relative;
+        width: 100%;
+        opacity: 1;
+        margin: 0;
+        background: transparent;
+        box-shadow: none;
+        border-radius: 0;
+        visibility: visible;
+        pointer-events: inherit;
+        top: 0;
+        left: 0;
+        display: none;
+        transform: none;
+        -moz-transform: none;
+        -webkit-transform: none;
+        -o-transition: none;
+        -ms-transition: none;
+        transition: none;
+        -moz-transition: none;
+        -webkit-transition: none;
+        -o-transition: none;
+        -ms-transition: none;
+    }
+    .mainMenu > ul li:hover > ul{
+        visibility: visible;
+        opacity: 1;
+        transition: none;
+        -moz-transition: none;
+        -webkit-transition: none;
+        -o-transition: none;
+        -ms-transition: none;
+        transform: none;
+        -moz-transform: none;
+        -webkit-transform: none;
+        -o-transition: none;
+        -ms-transition: none;
+    }
+    .mainMenu > ul ul li:first-child {
+        border-top: 1px solid rgba(0, 0, 0, .05);
+    }
+    .mainMenu > ul ul li{
+        border-color: rgba(0, 0, 0, .05);
+    }
+    .mainMenu > ul > li > ul > li > a{
+        padding-left: 40px;
+        font-size: 16px;
+    }
+    .mainMenu > ul > li > ul > li > ul > li > a{
+        padding-left: 60px;
+    }
+    .mainMenu ul li.menu-item-has-children > a{
+        position: relative;
+    }
+    .mainMenu ul li.menu-item-has-children > a:after{
+        float: right;
+        margin: 0;
+    }
+
+
+    .iconbox01{
+        padding: 0;
+        margin: 0 0 40px;
+    }
+    .serviceItem02{
+        margin: 0 0 40px;
+    }
+
+    .secTitle{
+        font-size: 36px;
+        line-height: 48px;
+    }
+    footer .widget{
+        margin-bottom: 60px;
+    }
+    .widget.contact_widget {
+        padding-left: 0;
+    }
+    .ibborder{
+        display: none;
+    }
+    .processConten img {
+        max-width: 110% !important;
+    }
+    .factBottom{
+        margin-right: 0;
+        margin-top: -60px;
+    }
+    .fact_01{
+        margin-bottom: -50px;
+    }
+    .bLayer{
+        display: none;
+    }
+    .bannerContent{
+        padding-right: 0;
+    }
+    .bannerContent h2 {
+        font-size: 48px;
+        line-height: 60px;
+        margin-bottom: 32px;
+    }
+    .bannerContent > p{
+        margin-bottom: 45px;
+    }
+    .bannerContent02 h2{
+        font-size: 48px;
+        line-height: 60px;
+        margin-bottom: 32px;
+    }
+    .bannerContent02 > p{
+        margin-bottom: 45px;
+    }
+    .abImg img{
+        max-width: 100%;
+    }
+    .abImg{
+        margin-top: 40px;
+    }
+    .tw-stretch-element-inside-column{
+        margin: 0 !important;
+    }
+    .testimonialSlider01{
+        margin-top: 50px;
+    }
+    .processConten02{
+        margin: 50px 0 0;
+    }
+    .tsContent02{
+        padding: 0;
+    }
+    .testimonialSlider02{
+        padding: 0;
+    }
+    .testimonialSlider02.owl-carousel .owl-nav{
+        bottom: -70px;
+        left: 4%;
+    }
+    .tsContent02 .twIcon{
+        margin-bottom: 28px;
+    }
+    .tsContent02 p{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .tsContent02 h5{
+        margin-top: 35px;
+    }
+    .ctaMail{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    footer .ctaMail input[type="email"]{
+        padding-right: 20px;
+    }
+    .heroBanner03 .bannerContent02{
+        padding-top: 20px;
+    }
+    .heroBanner03{
+        padding-bottom: 120px;
+    }
+    .iconbox02{
+        margin-bottom: 30px;
+    }
+    .testimonialSlider03{
+        padding: 0;
+    }
+    .banner-desc{
+        margin: 0;
+    }
+    .dgitaTabWrapper{
+        margin-right: 0;
+    }
+    .dgitaTab li a{
+        font-size: 19px;
+    }
+    .dgiTabContent h4{
+        font-size: 29px;
+        line-height: 40px;
+    }
+    .banner-title{
+        font-size: 60px;
+        line-height: 72px;
+    }
+    .secTitle br, .secDesc2 br, .secDesc br{
+        display: none;
+    }
+    .singleServicePage .secTitle{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .singleServicePage .abImg{
+        margin: 0 0 50px;
+    }
+    .auditForm{
+        margin: 0;
+    }
+    .fixedItem .tsContent02{
+        margin: 0;
+    }
+    .fixedItem .tsContent02 .secTitle{
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .singleServicePage{
+        background-size: cover;
+        padding-bottom: 100px;
+    }
+    .folioPagination a.prev{
+        padding-right: 0;
+    }
+    .folioPagination a.next{
+        padding-left: 0;
+    }
+    .folioPagination a{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .singleFolioPage .abImg {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .sidebar{
+        padding-left: 0;
+        margin: 60px 0 0;
+    }
+    .sidebar.lsb{
+        padding-right: 0;
+        margin: 0 0 60px;
+    }
+    .blog_details_banner .banner-title{
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .postPagination a.next{
+        padding-left: 0;
+    }
+    .postPagination a.prev{
+        padding-right: 0;
+    }
+    .sicc_list li .children{
+        margin-left: 40px;
+    }
+    .conFormWrapper{
+        padding-left: 25px;
+        padding-right: 20px;
+    }
+    .contactInfo{
+        padding-left: 25px;
+        padding-right: 20px;
+    }
+    .contactInfo img{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 20px;
+    }
+    .contactInfo p{
+        font-size: 17px;
+    }
+    .conFormWrapper h3{
+        font-size: 26px;
+    }
+    .tmImgArea{
+        padding: 0;
+    }
+    .product_details h3{
+        font-size: 30px;
+    }
+    .product_details{
+        padding: 0 0 0;
+    }
+}
+
+/*------------------------------------------------------------------------------------
+/ 5. Responsive For Mobile Device
+--------------------------------------------------------------------------------------*/
+@media (max-width: 767px){
+    .hideMobile .rvlist{
+        display: none;
+    }
+    .product_details_tab{
+        display: block;
+    }
+    .product_details_tab li.nav-item{
+        display: block;
+        margin: 0 0 5px;
+    }
+    .product_details{
+        padding: 60px 0 0;
+    }
+    .tmImgArea{
+        padding: 0 0 50px;
+    }
+    .cusCol{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .historyThumb .animLayer{
+        left: -12px;
+    }
+    .historyThumb{
+        margin: 0 30px 30px 0;
+    }
+    .historyContent {
+        padding-left: 0;
+        margin: 0 30px 0 0;
+    }
+    .bars{
+        left: auto;
+        right: 5px;
+    }
+    .hdots{
+        left: auto;
+        right: -32px;
+    }
+    .contact_form{
+        margin-bottom: 50px;
+    }
+    .single_comment img{
+        position: relative;
+        left: 0;
+        top: 0;
+        margin: 0 0 20px;
+    }
+    .single_comment{
+        padding-right: 20px;
+        padding-left: 25px;
+    }
+    .sicc_list li .children{
+        margin-left: 15px;
+    }
+    .commentForm input[type="checkbox"] ~ label{
+        line-height: 24px;
+    }
+    .commentForm .text-right {
+        text-align: left !important;
+    }
+    .postPagination a{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .postPagination a.next{
+        margin-top: 25px;
+    }
+    .socialShare{
+        justify-content: flex-start;
+        margin: 20px 0 0;
+    }
+    .sic_the_content blockquote, .sic_the_content blockquote.wp-block-quote{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .sic_the_content blockquote p, .sic_the_content blockquote.wp-block-quote p{
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .sic_the_content blockquote cite{
+        font-size: 18px;
+    }
+    .blog_details_banner .banner-title{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .blogContent02{
+        padding-left: 25px;
+        padding-right: 20px;
+    }
+    .blogContent02 h3{
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .folioPagination a.prev{
+        margin-bottom: 30px;
+    }
+    .singleFolioPage .secTitle{
+        font-size: 36px;
+        line-height: 46px;
+        margin-bottom: 32px;
+    }
+    .filter_menu{
+        display: block;
+    }
+    .fixedItem .tsContent02{
+        margin: 40px 0 0;
+    }
+    .auditForm{
+        margin-top: 50px;
+    }
+    .tabFull .tabThumb{
+        margin: 0 0 40px;
+    }
+    .video_banner .popup_video{
+        width: 70px;
+        height: 70px;
+        line-height: 74px;
+    }
+    .dgitaTab li a {
+        font-size: 17px;
+    }
+    .banner-title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .banner-desc{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .testimonialItem03 p{
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .iconbox02{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .fact_01.fsingle{
+        margin-bottom: 30px;
+    }
+    .bannerContent02 ul li{
+        display: block;
+        font-size: 20px;
+    }
+    .centerMenu .mainMenu, .mainMenu{
+        top: 67px;
+    }
+    .ctaMail{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .bannerContent02{
+        padding: 0;
+    }
+    .heroBanner02{
+        height: auto;
+        padding: 170px 0 120px;
+    }
+    .bannerContent02 h2 {
+        font-size: 34px;
+        line-height: 45px;
+        margin-bottom: 30px;
+    }
+    .bannerContent02 > p{
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 40px;
+    }
+    footer .ctaMail button{
+        position: relative;
+        margin: 10px 0 0;
+    }
+    .testimonialSlider02.owl-carousel .owl-nav {
+        bottom: auto;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: -100px;
+        align-items: flex-start;
+        padding: 35px 0 0;
+    }
+    .ctaMail h2{
+        line-height: 45px;
+        font-size: 32px;
+    }
+    .testimonialSlider02.owl-carousel .tsAuthor{
+        margin-bottom: 40px;
+    }
+    .processConten02 .fact_01{
+        width: 100%;
+    }
+    .processConten02{
+        width: 100%;
+        height: auto;
+        background-image: none !important;
+        padding: 50px 0 0;
+    }
+    .proCircle{
+        display: none;
+    }
+    .serviceItem04{
+        padding-left: 30px;
+    }
+    .serviceItem04 .serImg{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 25px;
+    }
+    .processConten img {
+        max-width: 100% !important;
+    }
+    .copyright ul li{
+        margin: 0 8px;
+    }
+    .accessNav .cartBtn{
+        margin-left: 12px;
+        margin-right: 8px;
+    }
+    .heroBanner01{
+        height: auto;
+        padding: 170px 0 120px;
+    }
+    .bMiddle {
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: inline-block;
+        top: 0;
+        transform: none;
+        z-index: 1;
+    }
+    .subscribeForm input[type="submit"]{
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-bottom: 10px;
+    }
+    .subscribeForm input[type="email"]{
+        padding-right: 20px;
+    }
+    .bannerContent h2{
+        font-size: 34px;
+        line-height: 46px;
+        margin-bottom: 30px;
+    }
+    .bannerContent > p{
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 30px;
+    }
+    .bannerContent{
+        padding: 0;
+    }
+    .copyright{
+        display: block;
+        text-align: center;
+    }
+    .testimonialSlider01.owl-carousel .owl-item {
+        height: calc(100% + 20px);
+        padding: 10px;
+        width: calc(100% + 20px);
+    }
+    .listItem li{
+        display: block;
+    }
+    .ss_child{
+        left: 3px;
+    }
+    .ss_parent span{
+        margin-left: -25px;
+    }
+    .processConten{
+        margin-top: 50px;
+    }
+    .accessNav .dgBtn_two,
+    .accessNav .phoneBtn{
+        display: none;
+    }
+    .header01 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .factBottom{
+        margin: -30px 0 0;
+        float: none;
+    }
+    .fact_01{
+        margin-bottom: -35px;
+    }
+}
